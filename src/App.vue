@@ -6,6 +6,6 @@
   <RouterView />
 </template>
 
-<style scoped>
-
+<style>
+@import './main.scss';
 </style>

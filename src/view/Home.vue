@@ -1,18 +1,21 @@
 <script>
-import Table from '@/components/table/table.vue';
+import Table from "@/components/table/table.vue";
+import Input from "@/components/input/input.vue";
+import Combobox from "@/components/combobox/combobox.vue"
 
 export default {
   methods: {
     goToAbout() {
-      this.$router.push('/about')
+      this.$router.push("/about");
     },
   },
-}
+};
 </script>
 
 <template>
   <h2>HomeView</h2>
   <button @click="goToAbout">Go to About</button>
   <Table></Table>
-  <b-from :type="'text'"></b-from>
+  <Input></Input>
+  <Combobox></Combobox>
 </template>
