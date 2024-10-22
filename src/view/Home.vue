@@ -14,4 +14,5 @@ export default {
   <h2>HomeView</h2>
   <button @click="goToAbout">Go to About</button>
   <Table></Table>
+  <b-from :type="'text'"></b-from>
 </template>
